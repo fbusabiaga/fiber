@@ -30,8 +30,8 @@ class gmres_counter(object):
 if __name__ == '__main__':
 
   # Set some parameters
-  max_steps = 1000
-  n_save = 10
+  max_steps = 10
+  n_save = 1
   name_output = 'run'
   num_points = 32
   dt = 1e-3

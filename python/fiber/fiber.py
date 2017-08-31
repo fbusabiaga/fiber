@@ -64,8 +64,6 @@ class fiber(object):
     self.BC_end_vec_0 = BC_end_vec_0
     self.BC_end_vec_1 = BC_end_vec_1
 
-    print 'beta = ', self.beta
-
     # Get Chebyshev differential matrix
     D_1, s = cheb.cheb(num_points - 1)
 
